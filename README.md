@@ -55,16 +55,6 @@ Foi desenvolvido com finalidade educacional e de portfólio, visando praticar an
 
 ---
 
-## Funcionalidades
-
-- Análise de faturamento e ticket médio.
-- Identificação dos produtos mais vendidos.
-- Análise de faturamento por região.
-- Análise do status e dos atrasos nas entregas.
-- Criação de visualizações e dashboard no Power BI.
-
----
-
 ## Tecnologias e Ferramentas
 
 - Python
