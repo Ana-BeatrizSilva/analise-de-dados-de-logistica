@@ -1,163 +1,145 @@
-# Análise de Logística
+# Análise de Dados de Logística
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white)
+![Jupyter%20Notebook](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white)
 ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Power%20BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
 
 ## Sobre o Projeto
 
-Projeto de análise de dados desenvolvido para explorar informações relacionadas a vendas e operações logísticas.
+Projeto desenvolvido para explorar dados relacionados a vendas e operações logísticas.
 
-O projeto utiliza dados fictícios de produtos, clientes, pedidos e entregas para analisar faturamento, produtos mais vendidos, desempenho por região e situação das entregas.
+São utilizados dados fictícios de produtos, clientes, pedidos e entregas para analisar faturamento, produtos mais vendidos, desempenho por região e situação das entregas.
 
-Os dados foram analisados utilizando **Python**, com Pandas, NumPy e Matplotlib, e posteriormente utilizados na construção de um dashboard no **Power BI**.
+A análise foi realizada com **Python** e posteriormente utilizada na construção de um dashboard no **Power BI**.
 
-O projeto foi desenvolvido com finalidade educacional e de portfólio, visando praticar análise exploratória, manipulação de dados, visualização e construção de dashboards.
+Foi desenvolvido com finalidade educacional e de portfólio, visando praticar análise exploratória, manipulação de dados, visualização e construção de dashboards.
 
-## Objetivos
-
-- Analisar o faturamento dos pedidos;
-- Identificar os produtos mais vendidos;
-- Comparar o faturamento entre regiões;
-- Analisar o desempenho das entregas;
-- Identificar entregas atrasadas;
-- Praticar análise de dados com Python;
-- Desenvolver um dashboard no Power BI.
-
-## Dados
-
-O projeto utiliza um dataset fictício estruturado em quatro tabelas relacionadas:
-
-- **PRODUTOS** — informações dos produtos comercializados;
-- **CLIENTES** — informações dos clientes;
-- **PEDIDOS** — registros das vendas realizadas;
-- **ENTREGAS** — informações sobre as entregas dos pedidos.
-
-Ao todo, foram utilizados **30 produtos, 50 clientes, 100 pedidos e 100 entregas**.
-
-## Análise
-
-Foram analisados indicadores relacionados a:
-
-- Faturamento total;
-- Ticket médio;
-- Produtos mais vendidos;
-- Faturamento por região;
-- Entregas atrasadas;
-- Percentual de atrasos.
-
-A análise apresentou um faturamento total de **R$ 197.670,00** em **100 pedidos**, com ticket médio de **R$ 1.976,70**.
-
-O **Pen Drive 128GB** foi o produto com maior quantidade de unidades vendidas, com **42 unidades**.
-
-O **Sudeste** apresentou o maior faturamento, com **R$ 59.850,00**, enquanto o **Nordeste** apresentou o menor, com **R$ 26.300,00**.
-
-Das 100 entregas analisadas, **31 foram atrasadas**, representando **31% do total**.
+---
 
 ## Demonstração
 
 ### Dashboard de Logística
 
-![Dashboard de Análise de Logística](imagens/imagem_analise_logistica_dashboard.png)
+![Dashboard de Análise de Logística](imagens/imagem-dashboard-de-analise-de-logistica.png)
 
-*Dashboard desenvolvido no Power BI contendo os principais indicadores e resultados da análise.*
+*Dashboard desenvolvido no Power BI com os principais indicadores da análise.*
+
+---
 
 ### Faturamento por Região
 
-![Faturamento por Região](imagens/visualizacao_faturamento_por_regiao.png)
+![Faturamento por Região](imagens/visualizacao-faturamento-por-regiao.png)
 
-*Faturamento total distribuído entre as regiões.*
+*Distribuição do faturamento entre as regiões.*
 
-### Top 5 Produtos Mais Vendidos
+---
 
-![Top 5 Produtos Vendidos](imagens/visualizacao_top_5_produtos_vendidos.png)
+### Produtos Mais Vendidos
+
+![Produtos Mais Vendidos](imagens/visualizacao-produtos-vendidos.png)
 
 *Produtos com maior quantidade de unidades vendidas.*
 
+---
+
 ### Status das Entregas
 
-![Status das Entregas](imagens/visualizacao_status_entregas.png)
+![Status das Entregas](imagens/visualizacao-status-entregas.png)
 
-*Distribuição das entregas entre pedidos entregues e atrasados.*
+*Distribuição das entregas entre os diferentes status.*
 
-## Metodologia
+---
 
-O projeto foi desenvolvido em quatro etapas principais:
+## Funcionalidades
 
-1. **Preparação dos dados** — criação e organização do dataset em Excel;
-2. **Análise exploratória** — manipulação e análise dos dados com Python;
-3. **Visualização** — criação de gráficos utilizando Matplotlib;
-4. **Dashboard** — modelagem dos dados e criação de indicadores e visualizações no Power BI.
+- Análise de faturamento e ticket médio.
+- Identificação dos produtos mais vendidos.
+- Análise de faturamento por região.
+- Análise do status e dos atrasos nas entregas.
+- Criação de visualizações e dashboard no Power BI.
+
+---
 
 ## Tecnologias e Ferramentas
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Jupyter Notebook**
-- **OpenPyXL**
-- **Excel**
-- **Power BI**
-- **DAX**
-- **Visual Studio Code**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- OpenPyXL
+- Excel
+- Power BI
+- DAX
+- Visual Studio Code
+
+---
+
+## Conceitos Aplicados
+
+- Análise exploratória de dados.
+- Manipulação e transformação de dados.
+- Visualização de dados.
+- Modelagem de dados e criação de medidas DAX.
+
+---
 
 ## Estrutura do Projeto
 
 ```text
-analise_logistica/
+analise-de-dados-de-logistica/
 │
 ├── dados/
-│   └── analise_logistica_dataset.xlsx
-│      
-├── documentação/
+│   └── dataset-dados-de-logistica.xlsx
+│
+├── documentacao/
 │   ├── planejamento.md
-│   │  
 │   ├── metodologia.md
-│   │  
 │   └── resultados.md
 │
 ├── imagens/
-│   ├── imagem_analise_logistica_dashboard.png
-│   │ 
-│   ├── visualizacao_faturamento_por_regiao.png
-│   │
-│   ├── visualizacao_status_entregas.png
-│   │
-│   └── visualizacao_top_5_produtos_vendidos.png
+│   ├── imagem-dashboard-de-analise-de-logistica.png
+│   ├── visualizacao-faturamento-por-regiao.png
+│   ├── visualizacao-produtos-vendidos.png
+│   └── visualizacao-status-entregas.png
 │
-├── power_bi/
-│   └── analise_logistica_dashboard.pbix
-│      
+├── power-bi/
+│   └── dashboard-de-analise-de-logistica.pbix
+│
 └── python/
-    ├── analise_exploratoria.ipynb
-    │
-    └── analise_visualizacoes.ipynb
-````
+    ├── analise-exploratoria.ipynb
+    └── analise-visualizacoes.ipynb
+```
 
-## Documentação
+---
 
-A documentação complementar está disponível na pasta [`documentação`](documentação/):
+## Como Executar
 
-* [`planejamento.md`](documentação/planejamento.md)
-* [`metodologia.md`](documentação/metodologia.md)
-* [`resultados.md`](documentação/resultados.md)
+### 1. Clone o repositório
 
-## Objetivo de Aprendizagem
+```bash
+git clone https://github.com/Ana-BeatrizSilva/analise-de-dados-de-logistica.git
+```
 
-Este projeto foi desenvolvido para praticar e consolidar conhecimentos em:
+### 2. Acesse a pasta do projeto
 
-* Análise exploratória de dados;
-* Manipulação de dados com Python;
-* Pandas e NumPy;
-* Visualização de dados;
-* Modelagem de dados;
-* Criação de medidas DAX;
-* Desenvolvimento de dashboards;
-* Organização e documentação de projetos;
+```bash
+cd analise-de-dados-de-logistica
+```
+
+### 3. Execute os notebooks
+
+Abra os arquivos `.ipynb` da pasta `python/` utilizando o **Jupyter Notebook** ou **Visual Studio Code**.
+
+---
+
+## Possíveis Melhorias Futuras
+
+- Adicionar novas análises e indicadores ao dashboard.
+- Automatizar a atualização dos dados.
+- Integrar os dados a um banco de dados.
